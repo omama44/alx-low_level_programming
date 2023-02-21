@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stido.h>
 /**
  * main - entary point
  * descripiton: a program that print _putchar
