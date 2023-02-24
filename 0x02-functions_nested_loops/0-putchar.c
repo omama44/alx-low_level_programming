@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * main - entary point
- * descripiton: a program that print _putchar
- * return: always 0 (success)
+ * main - program that print _putchar
+ *
+ * return: always 0
  */
 
 int main(void)
 {
-	int _putchar(char);
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');

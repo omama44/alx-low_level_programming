@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * main -entry point
- * descriptin: print_alpabet - alphabet in lowecase
+ * print_alphabet - Make the alphabet
  *
- * Return: Always 0
+ * Return: void
  */
 void print_alphabet(void)
 {
 	int i;
-	
-	for (i = 97; i<= 122; i++)
+
+	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
 	}
