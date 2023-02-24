@@ -1,18 +1,17 @@
 #include <stdio.h>
+
 /**
- *main - Entery point
- *description: 'print alpabets lower case'
- *Return: always 0
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int n = 97;
+	char c;
 
-	while (n <= 122)
-	{
-		putchar(n);
-		n++;
-	}
-	putchar ("\n");
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+
+	putchar('\n');
 	return (0);
 }
