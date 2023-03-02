@@ -6,16 +6,17 @@
  * @dest: the destination string
  * @src: the source string
  *
- * return: a pointer to the resulting string deest
+ * Return: a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int w = 0, i;
+
 	while (dest[w])
 	{
 		w++;
 	}
-	for (i =0; src[i] != 0; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
 		dest[w] = src[i];
 		w++;
