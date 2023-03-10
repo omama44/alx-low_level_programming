@@ -9,10 +9,12 @@
  */
 int main(int argc, char **argv)
 {
+	int num = 0;
 
-	for (int number = 0;number < argc;number++)
+	while (num < argc)
 	{
-		printf("%s\n", *(argv + number));
+		printf("%s\n", *(argv + num));
+		num++;
 		(*argv)++;
 	}
 	return (0);
