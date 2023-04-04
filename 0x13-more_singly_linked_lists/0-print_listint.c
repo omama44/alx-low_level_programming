@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print listint - prints the elements of a linked list
+ * print listint - print  all of the elements of a linked list
  * @h: head of link list
  *
  * Return: the number of nodes of the linked list
@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 	if (h != NULL)
 	{
 		while (h)
-		{ 
+		{
 			printf("%d/n", h->n);
 			h = h->next;
 			co++;
